@@ -1,0 +1,27 @@
+1621333220991	geckodriver	INFO	Listening on 127.0.0.1:57314
+1621333224079	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\SiradS\\AppData\\Local\\Temp\\rust_mozprofilezzlxpA"
+1621333225227	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621333228341	Marionette	INFO	Listening on port 57323
+1621333228391	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621333244252	Marionette	INFO	Stopped listening on port 57323
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621335100188	geckodriver	INFO	Listening on 127.0.0.1:57589
+1621335103241	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\SiradS\\AppData\\Local\\Temp\\rust_mozprofileWX8xCj"
+1621335103952	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621335106453	Marionette	INFO	Listening on port 57598
+1621335106930	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621335195767	Marionette	INFO	Stopped listening on port 57598
+1621343954409	geckodriver	INFO	Listening on 127.0.0.1:58638
+1621343957350	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\SiradS\\AppData\\Local\\Temp\\rust_mozprofilefmDUVe"
+1621343958167	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621343963245	Marionette	INFO	Listening on port 58646
+1621343963716	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621345310724	Marionette	INFO	Stopped listening on port 58646
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
