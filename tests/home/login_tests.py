@@ -3,7 +3,6 @@ import pytest
 from pages.home.login_page import LoginPage
 from utilities.teststatus import TestStatus
 
-
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")
 class LoginTests(unittest.TestCase):
 
@@ -23,6 +22,7 @@ class LoginTests(unittest.TestCase):
 
     @pytest.mark.run(order=1)
     def test_invalidLogin(self):
+        self.lp.logout()
         self.lp.login("spacetest0411@gmail.com", "test12")
         result = self.lp.verifyLoginFailed()
         assert result == True

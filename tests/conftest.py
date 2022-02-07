@@ -16,13 +16,13 @@ def oneTimeSetUp(request, browser):
     wdf = WebDriverFactory(browser)
     driver = wdf.getWebDriverInstance()
     lp = LoginPage(driver)
-    lp.login("spacearena0411@gmail.com", "SpaceArena2021!")
+    lp.login("spacetest0411@gmail.com", "test123")
 
     if request.cls is not None:
         request.cls.driver = driver
 
     yield driver
-    #driver.quit()
+    driver.quit()
     print("Running one time tearDown")
 
 def pytest_addoption(parser):
